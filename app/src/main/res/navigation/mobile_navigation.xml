@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_transfer">
+    <fragment
+        android:id="@+id/navigation_transfer"
+        android:name="com.aeon.wallet.app.TransferFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_transfer" />
+    <fragment
+        android:id="@+id/navigation_contact"
+        android:name="com.aeon.wallet.app.ContactFragment"
+        android:label="@string/title_contacts"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/navigation_qr"
+        android:name="com.aeon.wallet.app.QRFragment"
+        tools:layout="@layout/fragment_qr" />
+    <fragment
+        android:id="@+id/navigation_wallet"
+        android:name="com.aeon.wallet.app.WalletFragment"
+        android:label="@string/title_wallet"
+        tools:layout="@layout/fragment_wallet" />
+    <fragment
+        android:id="@+id/navigation_transaction_pending"
+        android:name="com.aeon.wallet.app.SendPendingFragment"
+        tools:layout="@layout/fragment_send_pending" />
+    <fragment
+        android:id="@+id/navigation_send"
+        android:name="com.aeon.wallet.app.SendFragment"
+        android:label="@string/title_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/navigation_receive"
+        android:name="com.aeon.wallet.app.ReceiveFragment"
+        android:label="@string/title_receive"
+        tools:layout="@layout/fragment_receive" />
+</navigation>

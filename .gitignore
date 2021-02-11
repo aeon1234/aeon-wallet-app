@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea/*
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+external-libs/aeon/lib/*
+external-libs/openssl/*
+external-libs/boost/*
+external-libs/libsodium/*
+.cxx
+local.properties

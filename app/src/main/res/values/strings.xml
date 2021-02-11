@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">aeon-wallet-app</string>
+    <string name="button_add">Add</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="button_confirm_delete_wallet">Delete Wallet</string>
+    <string name="button_confirm_show_secret_info">Show Secret Info</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_create_new">Create New</string>
+    <string name="button_create">Create</string>
+    <string name="button_delete_wallet">Delete Wallet</string>
+    <string name="button_from_seed">From Seed</string>
+    <string name="button_ok">OK</string>
+    <string name="button_show_secret_info">Reveal Secrets</string>
+    <string name="row_node_target">Target</string>
+    <string name="row_wallet_account">Account</string>
+    <string name="row_wallet_address">Address</string>
+    <string name="row_wallet_balance_total">Total</string>
+    <string name="row_wallet_balance_pending">Pending</string>
+    <string name="row_wallet_balance_spendable">Available</string>
+    <string name="row_wallet_index">Index</string>
+    <string name="row_wallet_name">Name</string>
+    <string name="row_wallet_path">Path</string>
+    <string name="row_wallet_public_spend_key">Public Spend Key</string>
+    <string name="row_wallet_public_view_key">Public View Key</string>
+    <string name="row_wallet_restore_height">Restore Height</string>
+    <string name="row_wallet_seed">Seed</string>
+    <string name="row_wallet_secret_spend_key">Secret Spend Key</string>
+    <string name="row_wallet_secret_view_key">Secret View Key</string>
+    <string name="row_wallet_status">Status</string>
+    <string name="row_wallet_synchronized">Synchronized</string>
+    <string name="row_wallet_synchronized_height">Synchronized Height</string>
+    <string name="row_wallet_transaction_count">Transaction Count</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_mnemonic_seed_phrase">Mnemonic Seed Phrase</string>
+    <string name="title_new_wallet">New Wallet</string>
+    <string name="title_node">Node</string>
+    <string name="title_receive">Receive</string>
+    <string name="title_send">Send</string>
+    <string name="title_transfer">Transfer</string>
+    <string name="title_wallet">Wallet</string>
+    <string name="text_amount">Amount</string>
+    <string name="text_blocks">Blocks</string>
+    <string name="text_confirm_pin">Confirm App PIN</string>
+    <string name="text_contact_hint_name">Contact Name</string>
+    <string name="text_contact_hint_address">Contact Address</string>
+    <string name="text_create">Create</string>
+    <string name="text_creating_transaction">Creating Transaction...</string>
+    <string name="text_pin">App PIN</string>
+    <string name="text_pin_description">This PIN is used to secure your wallet only on this
+        device.</string>
+    <string name="text_recipient_address">Recipient Address</string>
+    <string name="text_restore_height">Restore Height</string>
+    <string name="text_secret_view_key">Secret View Key</string>
+    <string name="text_secret_spend_key">Secret Spend Key</string>
+    <string name="text_seed">Mnemonic Seed</string>
+    <string name="text_transaction_aeon_amount">Amount</string>
+    <string name="text_transaction_for_a_fee_of">Fee</string>
+    <string name="text_requires_payment_id">Payment ID</string>
+    <!-- Strings for camera settings. -->
+    <string name="pref_category_key_camera" translatable="false">pckc</string>
+    <string name="pref_key_rear_camera_preview_size" translatable="false">rcpvs</string>
+    <string name="pref_key_rear_camera_picture_size" translatable="false">rcpts</string>
+    <string name="pref_key_front_camera_preview_size" translatable="false">fcpvs</string>
+    <string name="pref_key_front_camera_picture_size" translatable="false">fcpts</string>
+    <string name="pref_key_camerax_rear_camera_target_resolution" translatable="false">crctas</string>
+    <string name="pref_key_camerax_front_camera_target_resolution" translatable="false">cfctas</string>
+    <string name="pref_key_camera_live_viewport" translatable="false">clv</string>
+</resources>
